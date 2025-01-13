@@ -547,8 +547,8 @@ public class GroceryStore {
 											boolean alreadyInCart = false;
 											for (int j = 0; j < cartSize; j++) {
 												if (cartItems[j].equalsIgnoreCase(itemC)) {
-													if (cartQuantities[j] + quantityToBuy > availableQuantity) { // edge case. we make sure that hte user cant just add max amount and then add max amount again
-														System.out.println("\n  Silly, You already have " + cartQuantities[j] +" "+ itemC + "s in your cart. ");
+													if (cartQuantities[j] + quantityToBuy > availableQuantity) { // edge case. we make sure that the user cant just add max amount and then add max amount again
+														System.out.println("\n  Not enough Stock! Please enter a quantity within the available stock.");
 														alreadyInCart = true;
 														break;
 													}
