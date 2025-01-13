@@ -10,3 +10,7 @@ this is how the package explorer should look like:
 ![image](https://github.com/user-attachments/assets/e4379636-0836-4d58-be85-bd2fdef3fe13)
 
 
+
+bcrypt hashing library was taken from : https://github.com/djmdjm/jBCrypt
+
+
